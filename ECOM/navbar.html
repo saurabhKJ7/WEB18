@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            
+            
+        }
+        #navbar{
+            display: flex;
+            height: 80px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+            border-radius: 10px;
+        }
+        #logo{
+            width: 40%;
+        }
+        #list{
+            display: flex;
+            width: 70%;
+            justify-content: space-around;
+        }
+        #logo>a>img{
+            padding:15px 30% 0px ;
+            height: 50%;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        p{
+            padding: 25px;
+            font-size: 24px;
+        }
+        #list>a>img{
+            height: 80%;
+            padding-top: 5px;
+            background-color: white;
+            border-radius: 50%;
+            margin-top: 5px;
+        }
+        #photo>img{
+            width: 100%;
+            height: 600px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo">
+            <a href="navbar.html"><img src="https://assets.ajio.com/static/img/Ajio-Logo.svg" alt=""></a>
+        </div>
+        <div id="list">
+            <p><a href="men.html">MEN</a></p>
+            <p><a href="women.html">WOMEN</a></p>
+            <p><a href="signup.html">SIGNUP</a></p>
+            <p><a href="login.html">LOGIN</a></p>
+            <a href="cart.html"><img src="https://img.icons8.com/carbon-copy/2x/bag-front-view.png" alt=""></a>
+        </div>
+    </div>
+    <div id="photo">
+       <img src="https://assets.tatacliq.com/medias/sys_master/images/33694796742686.jpg" alt="">
+    </div>
+</body>
+</html>
